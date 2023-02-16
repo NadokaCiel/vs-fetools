@@ -23,7 +23,9 @@
     "husky": "husky install && npm run commit-msg && npm run pre-push",
     "commit-msg": "husky add .husky/commit-msg \"npx --no-install commitlint --edit $1\"",
     "pre-push": "husky add .husky/pre-push \"npm run test\"",
-    "unhusky": "husky uninstall && rimraf .husky"
+    "unhusky": "husky uninstall && rimraf .husky",
+    "test": "npm run lint",
+    "test:watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
