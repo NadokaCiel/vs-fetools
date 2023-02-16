@@ -7,7 +7,7 @@ import eslint from "@rollup/plugin-eslint";
 import camelCase from "lodash.camelcase";
 import { terser } from "rollup-plugin-terser";
 import getExtensions from "../lib/getExtensions";
-import extensionOrder from "../plugin/rollup-plugin-extension-order";
+import extensionOrder from "rollup-plugin-extension-order";
 
 const pkg = require("../../package.json");
 const inputFileName = "index";
