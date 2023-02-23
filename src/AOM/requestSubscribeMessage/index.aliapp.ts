@@ -23,7 +23,7 @@ export default function requestSubscribeMessage(
       },
       fail(err) {
         const errMsg = (err?.errorMessage || "").toLowerCase();
-        resolve([ReturnData.fail(err?.errorMessage), ReturnData]);
+        resolve([ReturnData.fail(errMsg), ReturnData]);
       },
     });
   });
