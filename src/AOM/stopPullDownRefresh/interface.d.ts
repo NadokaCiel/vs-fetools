@@ -1,6 +1,6 @@
 import { IMiniProgramParams } from "@/util/__interface__/util";
 
 export type IOption =
-  | {}
+  | Record<string, unknown>
   | IMiniProgramParams<typeof wx.stopPullDownRefresh>
   | IMiniProgramParams<typeof my.stopPullDownRefresh>;
