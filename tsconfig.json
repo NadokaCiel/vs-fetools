@@ -11,8 +11,10 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "declaration": true,
+    "esModuleInterop": true,
     "declarationDir": "./typings",
     "outDir": "dist",
+    "moduleSuffixes": [".weapp", ".aliapp", ""],
     "typeRoots": ["node_modules/@types"],
     "paths": {
       "@/*": ["src/*"]

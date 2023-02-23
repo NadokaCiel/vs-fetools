@@ -5,9 +5,9 @@ declare const _default: {
     Decorator: {};
     AOM: {
         storage: {
-            storeData: typeof import("./AOM/storage").storeData;
-            queryData: typeof import("./AOM/storage").queryData;
-            clearStorage: typeof import("./AOM/storage").clearStorage;
+            storeData: typeof import("./AOM/storage/index.aliapp").storeData;
+            queryData: typeof import("./AOM/storage/index.aliapp").queryData;
+            clearStorage: typeof import("./AOM/storage/index.aliapp").clearStorage;
         };
     };
     util: {};

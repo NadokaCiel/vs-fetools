@@ -1,20 +1,5 @@
-declare global {
-  class wx {
-    static [key: string]: any;
-  }
-
-  class my {
-    static [key: string]: any;
-  }
-
-  class swan {
-    static [key: string]: any;
-  }
-
-  class tt {
-    static [key: string]: any;
-  }
-}
+import "weapp-api-typings/types";
+import "mipp-ali/typings";
 
 export interface demo {
   a: string;
